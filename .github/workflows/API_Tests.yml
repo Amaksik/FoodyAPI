@@ -16,6 +16,12 @@ jobs:
       with:
         dotnet-version: 3.1
         
-    - name: Generate coverage report
-      run: |
-        dotnet test
+    - name: Install dependencies
+      run: dotnet restore
+      
+    - name: Build
+      run: dotnet build
+      
+    - name: Test with the dotnet CLI
+      run: dotnet test
+
