@@ -21,6 +21,6 @@ jobs:
       
     - name: Test with the dotnet CLI
       run: |
-        ./FoodyAPI/
+        cd ./FoodyAPI/
         dotnet test 
 
