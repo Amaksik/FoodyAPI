@@ -12,6 +12,7 @@ namespace FoodyAPI.Tests
 {
     public class FoodyControllerTest
     {
+
         private APIContext CreateDbContext()
         {
             var options = new DbContextOptionsBuilder<APIContext>()
