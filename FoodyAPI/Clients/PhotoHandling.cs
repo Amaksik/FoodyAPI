@@ -14,6 +14,7 @@ using System.Threading.Tasks;
 
 namespace FoodyAPI.Clients
 {
+
     public class PhotoHandling
     {
         private static readonly string bearer = "8b188dce6682963601305fb729d764f4373f616a";
