@@ -1,46 +1,39 @@
 name: Tests
-on:
-    push:
-      branches:
-        - master
-    pull_request:
-      branches:
-        - master
 
-env:
-  BuildConfig: Release
-  SolutionFile: MySolution.sln
+on:
+  push:
+    branches: 
+      - master
+      - dev
+  pull_request:
+    branches: 
+      - master
+      - dev
 
 jobs:
-    build:
-      runs-on: ubuntu-latest
-      
-      steps:
-      - uses: actions/checkout@v2
-      - name: Setup .NET Core
-        uses: actions/setup-dotnet@v1
-        with:
-            dotnet-version: 3.1.301
+  build:
+    name: Build on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    
+    steps:
+    - uses: actions/checkout@v1
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.x
         
-      - name: Install dependencies
-        run: dotnet restore
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 5.0
+        
+    - name: Build with dotnet
+      run: dotnet build --configuration Release
+      working-directory: ./FoodyAPI
       
-      - name: Build
-        run: dotnet build --configuration Release --no-restore
-      - name: Test
-        run: dotnet test --no-restore --verbosity normal
-      
-      - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0 # avoid shallow clone so nbgv can do its work.
-
-      - name: Versioning
-        run: echo ${{ steps.nbgv.outputs.SemVer2 }}
-
-      - name: Build with dotnet
-        run: dotnet build
-              --configuration ${{ env.BuildConfig }}
-              /p:Version=${{ steps.nbgv.outputs.AssemblyVersion }}
-
-      - name: Test with dotnet
-        run: dotnet test ${{ env.SolutionFile }}
+    - name: Unit Tests
+      run: dotnet test
+      working-directory: ./FoodyAPI
