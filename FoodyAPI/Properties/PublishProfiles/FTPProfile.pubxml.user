@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Этот файл используется процессом публикации или упаковки вашего веб-проекта. Можно настроить поведение этого процесса,
+изменив этот файл MSBuild. Подробности см. на странице https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsFSJh7hrGUuTBjsKyFHwzgAAAAACAAAAAAAQZgAAAAEAACAAAABS0704mRlawtIW96t5qAnwfIVqFeZnYvW/3vSGLp0CmQAAAAAOgAAAAAIAACAAAACuzSefb6BPOx2kWu9gYLu2cwBwF4AfWNRpAo3rBBGmTCAAAAC0wjWipI44g3gL6+ca5mVNpo/Hd/dykTdkS8FLTTyDMUAAAABiUlVG/reaslW2bUaSbDXLIUQmE8IAkE5zDlJp0sEN40RlWbiMC8r8TdwlLAjp4rjN9urHnXe2XJVHcgzkoxZv</EncryptedPassword>
+    <_PublishTargetUrl>ftp://FoodyAPI.somee.com/www.FoodyAPI.somee.com/www.FoodyAPI.somee.com</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>04/30/2021 10:21:34</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>04/30/2021 10:21:34</publishTime>
+    </File>
+    <File Include="Data/json.json">
+      <publishTime>05/06/2021 23:33:50</publishTime>
+    </File>
+    <File Include="FoodyAPI.deps.json">
+      <publishTime>05/12/2021 12:57:45</publishTime>
+    </File>
+    <File Include="FoodyAPI.dll">
+      <publishTime>05/12/2021 12:57:45</publishTime>
+    </File>
+    <File Include="FoodyAPI.exe">
+      <publishTime>05/12/2021 12:57:45</publishTime>
+    </File>
+    <File Include="FoodyAPI.pdb">
+      <publishTime>05/12/2021 12:57:45</publishTime>
+    </File>
+    <File Include="FoodyAPI.runtimeconfig.json">
+      <publishTime>05/12/2021 12:40:43</publishTime>
+    </File>
+    <File Include="Microsoft.Win32.SystemEvents.dll">
+      <publishTime>10/19/2020 18:40:26</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>03/17/2021 20:03:36</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll">
+      <publishTime>02/16/2021 21:59:26</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll">
+      <publishTime>10/19/2020 18:52:12</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll">
+      <publishTime>02/16/2021 22:00:24</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll">
+      <publishTime>10/19/2020 18:53:36</publishTime>
+    </File>
+    <File Include="System.Drawing.Common.dll">
+      <publishTime>02/16/2021 22:00:12</publishTime>
+    </File>
+    <File Include="System.Windows.Extensions.dll">
+      <publishTime>10/19/2020 18:53:38</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>05/12/2021 12:57:58</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

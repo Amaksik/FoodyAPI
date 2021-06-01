@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FoodyAPI.Clients.BarCodeClient">
+    <Position X="7.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAQAACBDAAAAAAAAAAIAAgAAAAAAAAABAA=</HashCode>
+      <FileName>Clients\BarCodeClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodyAPI.Clients.LogMealClient">
+    <Position X="9.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAADAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clients\LogMealClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodyAPI.Clients.PhotoHandling">
+    <Position X="11" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAABAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Clients\PhotoHandling.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodyAPI.Controllers.FoodyController">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAIAAQAAABAAAAAAAgAABAAAAAgEAABAAEBBAE=</HashCode>
+      <FileName>Controllers\FoodyController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_dbController" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FoodyAPI.Data.APIContext">
+    <Position X="7.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAQAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Data\APIContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodyAPI.Data.DbController">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAIAAAABAAAAAAIQAAAAAABAAAgAAAAAAEAgAA=</HashCode>
+      <FileName>Data\DbController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_context" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FoodyAPI.Migrations.intialMigration" Collapsed="true">
+    <Position X="9.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20210524130536_intialMigration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodyAPI.Migrations.ChangeDayIntake">
+    <Position X="18" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20210524161554_ChangeDayIntake.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodyAPI.Migrations.ChengeProductModelMigration" Collapsed="true">
+    <Position X="7.75" Y="5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20210531170503_ChengeProductModelMigration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodyAPI.Migrations.APIContextModelSnapshot">
+    <Position X="9.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Migrations\APIContextModelSnapshot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodyAPI.Models.NutriResponse">
+    <Position X="16.25" Y="3" Width="1.5" />
+    <NestedTypes>
+      <Class Name="FoodyAPI.Models.NutriResponse.FASAT" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.FAT" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.FOLAC" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.TOCPHA" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.FIBTG" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.VITB6A" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.K" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.FAPU" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.VITB12" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.FE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.CHOCDF" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.FOLFD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.VITD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.RIBF" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.P" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.FATRN" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.CHOLE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.VITK1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.CA" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.NutritionalInfo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.NA" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.TotalNutrients" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.VITARAE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.ENERCKCAL" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.MG" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.FAMS" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.PROCNT" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.VITC" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.SUGAR" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.NIA" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.ZN" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.SUGARAdded" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.Root" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.THIA" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FoodyAPI.Models.NutriResponse.FOLDFE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\NutriResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ResponseModels\NutriResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodyAPI.Models.NutritionixResponse">
+    <Position X="18" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Models\ResponseModels\NutritionixResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodyAPI.Models.Food">
+    <Position X="16.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAEAAAAAICAAAAAAAAAAIAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Models\ResponseModels\NutritionixResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodyAPI.Models.PhotoResponse">
+    <Position X="14.5" Y="3" Width="1.5" />
+    <NestedTypes>
+      <Class Name="FoodyAPI.Models.PhotoResponse.RecognitionResult" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ResponseModels\PhotoResponse.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Models\ResponseModels\PhotoResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodyAPI.Models.Photo">
+    <Position X="14.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ResponseModels\PhotoResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodyAPI.Models.Consume">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Consume.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodyAPI.Models.DayIntake">
+    <Position X="5.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAEAABAQA=</HashCode>
+      <FileName>Models\DayIntake.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="user" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FoodyAPI.Models.Product">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAADAAgAgACAAAAAAAAAAAQCAAAAAIAAAAAACgAAAAA=</HashCode>
+      <FileName>Models\Product.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="User" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FoodyAPI.Models.Query">
+    <Position X="12.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Models\Query.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodyAPI.Models.User">
+    <Position X="3" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAgABEAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Statistics" />
+      <Property Name="Favourite" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="FoodyAPI.Program">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodyAPI.Startup">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAgAAACAAAAAA=</HashCode>
+      <FileName>Startup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
